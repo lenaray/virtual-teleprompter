@@ -35,5 +35,7 @@ This app requires microphone and speech recognition permissions. Make sure these
 
 ### Contact
 Developer: Lena Ray
+
 Email: lenarayca@gmail.com
+
 GitHub: lenaray
