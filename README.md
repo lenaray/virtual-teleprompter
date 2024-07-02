@@ -1,5 +1,4 @@
 # Virtual Teleprompter App
-## Table of Contents
 ### Introduction
 This project is a Swift-based virtual teleprompter app designed to enhance social communication for individuals with autism by providing real-time speech-to-text transcription and AI-generated responses. The app leverages Apple AVFoundation and SFSpeechRecognizer libraries for speech recognition and integrates with Google Generative AI for generating appropriate responses.
 
