@@ -25,18 +25,17 @@ The app is designed with a focus on simplicity and ease of use. It features a te
 
 Video Demo: https://youtu.be/s4FN7qr7FUI
 
+## Dependencies
+- SwiftUI
+- AVFoundation
+- SFSpeechRecognizer
+- GoogleGenerativeAI
+
 ## Installation
 1. Clone the repository with git clone https://github.com/yourusername/virtual-teleprompter.git
 2. Open the folder in XCode
 3. Install all necessary dependencies by going to File -> Packages -> Resolve Package Versions in XCode
 4. Obtain an API Key from Google Generative AI and put that as the value for 'API_KEY' in a file 'GenerativeAI-Info.plist'
-
-## Usage
-1. Run the app either on the XCode Simulator or on your connected iPhone.
-3. Grant necessary permissions.
-4. Run Flask web app version of virtual teleprompter with ```python3 test.py```. The debug output shows what the web app is receiving.
-5. Press start recording button for transcription & communication with Google AI to begin.
-6. Refer to sample prompts & responses.
 
 ## Configuration
 - API Key
@@ -45,11 +44,12 @@ Ensure the 'GenerativeAI-Info.plist' file is correctly set up with your Google G
 - Permissions
 This app requires microphone and speech recognition permissions. Make sure these are granted in the device settings. You will be prompted to allow access upon initial installation of the app.
 
-## Dependencies
-- SwiftUI
-- AVFoundation
-- SFSpeechRecognizer
-- GoogleGenerativeAI
+## Usage
+1. Run the app either on the XCode Simulator or on your connected iPhone.
+3. Grant necessary permissions.
+4. Run Flask web app version of virtual teleprompter with ```python3 test.py```. The debug output shows what the web app is receiving.
+5. Press start recording button for transcription & communication with Google AI to begin.
+6. Refer to sample prompts & responses.
 
 ## Contact
 Developer: Lena Ray
