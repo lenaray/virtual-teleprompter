@@ -44,7 +44,7 @@ First, clone this repository with git clone https://github.com/yourusername/virt
 ### Setting Up Flask Web Server
 1. Make sure that Python is installed on your computer.
 2. Run ```pip install flask``` on the Terminal to install Flask.
-3. You'll be able to run the Flask app with ```python3 test.py``` and access it at http://<your-ip>:5050/api/response.
+3. You'll be able to run the Flask app with ```python3 test.py``` and access it at http://localhost:5050/api/response.
 
 ### Setting Up XCode
 1. Install XCode from Mac App Store.
