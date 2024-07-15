@@ -39,7 +39,7 @@ Ensure the 'GenerativeAI-Info.plist' file is correctly set up with your Google G
 This app requires microphone and speech recognition permissions. Make sure these are granted in the device settings. You will be prompted to allow access upon initial installation of the app.
 
 ## Installation
-First, clone this repository with git clone https://github.com/yourusername/virtual-teleprompter.git
+First, clone this repository with git clone https://github.com/lenaray/virtual-teleprompter
 
 ### Setting Up Flask Web Server
 1. Make sure that Python is installed on your computer.
